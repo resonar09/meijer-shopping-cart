@@ -8,7 +8,7 @@ export default function About() {
   return (
     <Container>
       <p>This simple shopping cart application was created by Darren Perez as a POC demo for the Meijer Company.</p>
-      <p>Please visit my github repository for source code. </p> <Link to="https://github.com/resonar09/">https://github.com/resonar09/</Link>
+      <p>Please visit my github repository for source code. </p> <a href="https://github.com/resonar09/meijer-shopping-cart" target="_blank" rel="noopener noreferrer">Git Hub Repo - meijer-shopping-cart</a>
     </Container>
   );
 }

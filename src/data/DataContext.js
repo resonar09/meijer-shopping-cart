@@ -10,7 +10,5 @@ export default React.createContext({
   getItems: () => {},
   updateCart: () => {},
   signOut: () => {},
-  signIn: () => {},
-  setShowAlert: () => {},
-  setAlertMessage: () => {},
+  signIn: () => {}
 });

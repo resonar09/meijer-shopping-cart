@@ -1,4 +1,5 @@
 # Meijer Demo POC - Shopping Cart in React
+by Darren Perez
 
 Requirements:
 
