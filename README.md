@@ -1,4 +1,20 @@
-# Getting Started with Create React App
+# Meijer Demo POC - Shopping Cart in React
+
+Requirements:
+
+1.    React class components and functional components
+
+2.    React Context API
+
+3.    Use hooks
+
+4.    Use Bootstrap with Reactstrap library
+
+5.    Use scss for any styles needed
+
+6.    Call meijer test api for products “https://meijerdigital.azurewebsites.net/api/interview ”
+
+7.    Use proptypes for components
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
