@@ -13,6 +13,7 @@ import {
   Nav,
   NavItem,
   NavLink,
+  Badge
 } from "reactstrap";
 
 const Header = (props) => {
@@ -62,7 +63,7 @@ const Header = (props) => {
               <NavItem>
                 <NavLink onClick={() => history.push("/cart")}className="align-top">
                   {totalItems > 0 && (
-                    <span className="pl-3 pr-1">{totalItems}</span>
+                    <Badge className="px-2" color="success" pill>{totalItems}</Badge>
                   )}
                   <img src={cart} alt="" width="20" height="20" />
                 </NavLink>
